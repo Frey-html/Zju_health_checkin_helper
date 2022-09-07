@@ -25,7 +25,7 @@
 区别于：[ZJU_Clock_In](https://github.com/lgaheilongzi/ZJU-Clock-In) 的地方是，ZJU_Clock_In采用的是利用缓存数据提交，如果没有缓存数据则需要手动先打一次卡；而Health_Checkin_Helper**没有这个限制**，直接可以打卡，并且可以**设置打卡位置**。
 
 ## 设置打卡位置说明：
-
+<!-- python3 main.py -a 3190102196 -p z132435689zf -lng 121.63529 -lat 29.89154 -c 紫金港校区 -->
 1. 直接运行 main.py 脚本: `python main.py -a * -p * -lng 121.63529 -lat 29.89154 -c 宁波校区`
    - 如果不清楚参数设置可以运行`python main.py --help`, 查看参数帮助
    - 校区填写参考钉钉中显示的文本:
